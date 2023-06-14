@@ -1,0 +1,194 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+.header {
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    color: white;
+    background-color: black;
+    height: 80px;
+    text-align: center;
+    padding-top: 1px;
+    
+}
+iframe {
+    width: 500px;
+    height: 300px;
+    margin-left: 50px;
+}
+.video {
+    margin-top: 50px;
+    display: flex;
+    margin-left: 30px;
+    margin-bottom: 50px;
+}
+.end {
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    color: white;
+    background-color: black;
+    height: 50px;
+    text-align: center;
+    padding-top: 10px;
+    
+}
+a {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+a:hover {
+    color: gray;
+}
+@media (max-width:1920px) {
+      .header {
+        max-width: 1920px;
+      }
+      .video {
+        margin-left: 400px;
+      }
+    }
+@media (max-width:1500px) {
+    .header {
+        max-width: 1500px;
+      }
+      .video {
+        margin-left: 0px;
+        margin-bottom: 20px;
+        display: flex;
+        margin-left: 150px;
+    }
+    iframe {
+        margin: 0px;
+        max-width: 600px;
+        max-height: 250px;
+        margin-bottom: 40px;
+        margin-right: 50px;
+    }
+}
+
+@media (max-width:1148px) {
+    
+      .header {
+        max-width: 1148px;
+      }
+      .video {
+        margin-left: 0px;
+        margin-bottom: 20px;
+        display: block;
+        text-align: center;
+    }
+    iframe {
+        margin: 0px;
+        max-width: 1148px;
+        max-height: 574px;
+        margin-bottom: 40px;
+        margin-right: 0px;
+    }
+}
+@media (max-width:992px) {
+
+    .header {
+        max-width: 992px;
+      }
+      .video {
+        margin-left: 0px;
+        margin-bottom: 20px;
+        display: block;
+    }
+    iframe {
+        margin: 0px;
+        max-width: 992px;
+        max-height: 496px;
+        margin-bottom: 40px;
+    }
+}
+@media (max-width:1024px) {
+    .header {
+        max-width: 1024px;
+      }
+      .video {
+        margin-left: 0px;
+        margin-bottom: 20px;
+        display: block;
+        text-align: center;
+    }
+    iframe {
+        margin: 0px;
+        max-width: 1024px;
+        max-height: 512px;
+        margin-bottom: 40px;
+    }
+}
+@media (max-width:768px) {
+    .header {
+        max-width: 768px;
+      }
+      .video {
+        margin-left: 0px;
+        margin-bottom: 20px;
+        display: block;
+    }
+    iframe {
+        margin: 0px;
+        max-width: 768px;
+        max-height: 384px;
+        margin-bottom: 40px;
+    }
+}
+@media (max-width:480px) {
+
+    .header {
+        max-width: 480px;
+      }
+    .video {
+        margin-left: 0px;
+        margin-bottom: 20px;
+        display: block;
+    }
+    iframe {
+        margin: 0px;
+        max-width: 420px;
+        max-height: 240px;
+        margin-bottom: 40px;
+    }
+}
+@media (max-width:410px) {
+
+      .header {
+        max-width: 410px;
+      }
+
+    .video {
+        margin-left: 0px;
+        margin-bottom: 20px;
+        display: block;
+    }
+    iframe {
+        margin: 0px;
+        max-width: 290px;
+        max-height: 150px;
+        margin-bottom: 40px;
+    }
+}
+@media (max-width:320px) {
+
+      .header {
+        max-width: 320px;
+      }
+
+    .video {
+        margin-left: 0px;
+        margin-bottom: 20px;
+        display: block;
+    }
+    iframe {
+        margin: 0px;
+        max-width: 280px;
+        max-height: 160px;
+        margin-bottom: 40px;
+    }
+}
+  
